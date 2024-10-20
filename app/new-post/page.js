@@ -2,6 +2,8 @@ import FromSubmit from "@/components/FromSubmit";
 import { storePost } from "@/lib/posts";
 import { redirect } from "next/navigation";
 
+// adding Image
+
 export default function NewPostPage() {
   async function createPost(formData) {
     "use server";
